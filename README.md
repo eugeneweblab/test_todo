@@ -1,6 +1,10 @@
-# Getting Started with Create React App
-
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+
+- In this project I used emotion/styled components with ThemeProvider to make code more clear and reusable. 
+- For saving data in Store - I used useReducer hook and according thinks. 
+- For Routes I used react-router-dom.
+- I added example of testing for Button component
+
 
 ## Available Scripts
 
