@@ -165,7 +165,7 @@ const Home = () => {
                         state.tasks.map((item, inx) => {
                             return (
                                 <TaskItem data={item}
-                                          key={item.content.toString()}
+                                          key={item.content}
                                           onEditTask={onEditTask}
                                           onRemoveTask={onDeleteTask}
                                 />
